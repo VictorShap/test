@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title new</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="RightNumbers.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div>Write first number</div>
+        <input type="text" id="firstN" oninput="onlyN('firstN')">
+        <div>Selecting sing</div>
+        <select id="sing">
+            <option id="1">+</option>
+            <option id="2">-</option>
+            <option id="3">*</option>
+            <option id="4">/</option>
+        </select>
+                <div>Write second number</div>
+        <input type="text" id="secondN" oninput="onlyN('secondN')">
+        <div>  
+            <button onclick="count()">Count</button>
+        </div>
+        <div>Result is :</div>
+        <input type="text" disabled="" id="result">
+        
+    </body>
+</html>
